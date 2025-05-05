@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 60px;
+}
+
+
+#menuGuilherme {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.menuGuilherme {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menuGuilherme:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+
+#apresentacao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto {
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#apresentacao h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+#apresentacao h3 {
+    font-size: 24px;
+    color: #7f8c8d;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card .topBcgSobre,
+.card .topBcgFormacao,
+.card .topBcgExperiencia,
+.card .topBcgHabilidades,
+.card .topBcgContato,
+.card .topBcgEndereco {
+    height: 5px;
+    background-color: #2980b9;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.texto-justificado {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+form label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
